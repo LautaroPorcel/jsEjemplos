@@ -1,4 +1,0 @@
-function ejercicio4(){
-
-    
-}
