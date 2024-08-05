@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://api.wallpapers.ai/static/downloads/5d226adf8ffa45e7a48d561c073bc604/upscaled/000000_770458249_kdpmpp2m15_PS7.5_PC_background._Fondo_de_pantalla_de_PC_de_Pok_mon,_imagen_con_animaciones._Digital_art._Concept_art_[upscaled].jpg') no-repeat center center fixed;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pokeball-logo {
+    height: 100px;
+    margin: 0 10px;
+}
+
+#pokemon-logo {
+    height: 150px; 
+}
+
+main {
+    padding: 20px;
+}
+
+#search {
+    margin-bottom: 50px;
+}
+
+#search-number {
+    padding: 5px;
+    font-size: 1em;
+}
+
+#search-button {
+    padding: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#pokemon-details {
+    text-align: center;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.5s ease;
+}
+
+#pokemon-details.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#pokemon-details img {
+    width: 150px;
+    height: 150px;
+}
+
+#pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.pokemon-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+}
+
+.pokemon-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.pokemon-card h3 {
+    margin: 10px 0;
+}
